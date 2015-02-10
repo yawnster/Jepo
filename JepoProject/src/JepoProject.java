@@ -14,7 +14,13 @@ public class JepoProject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Test");
+        String[] a = new String[5];
+        a[0] = "Dustin";
+        
+        for(int i = 1; i < 10; i++){
+            System.out.println(a[i]);
+        }
+        
     }
     
 }
