@@ -21,7 +21,7 @@ public class JepoProject {
 	a[3] = "Yannik";
 	a[4] = "Marian";
 
-        System.out.println("My Array 'walkthorugh'\n_______________");
+        System.out.println("My Array 'walkthrough'\n_______________");
         
         for(int i = 0; i < a.length; i++){
             System.out.println(a[i]);
