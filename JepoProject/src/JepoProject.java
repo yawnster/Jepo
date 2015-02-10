@@ -17,7 +17,7 @@ public class JepoProject {
         String[] a = new String[5];
         a[0] = "Dustin";
         
-        for(int i = 1; i < 10; i++){
+        for(int i = 0; i < a.length; i++){
             System.out.println(a[i]);
         }
         
