@@ -15,7 +15,7 @@ and open the template in the editor.
     </target>
     
     <target name="compile" depends="create">
-        <javac includeantruntime="true" srcdir="src" destdir="bin" includes="**/*.java"></javac>
+        <javac includeantruntime="true" srcdir="src" destdir="bin" includes="**/*.java" verbose="true"></javac>
     </target>
     
     <target name="std" depends="compile">
