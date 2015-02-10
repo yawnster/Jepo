@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<project name="JepoProject" default="std">
+    
+    <target name="clean">
+        <delete failonerror="false" dir="bin"/> 
+    </target>
+    
+    <target name="create" depends="clean">
+        <mkdir dir="bin"></mkdir>
+    </target>
+    
+    <target name="compile" depends="create">
+        <javac includeantruntime="true" srcdir="src" destdir="bin" includes="**/*.java"></javac>
+    </target>
+    
+    <target name="std" depends="compile">
+        
+    </target>
+    
+</project>
