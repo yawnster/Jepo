@@ -23,7 +23,7 @@ public class JepoProject {
 
         System.out.println("My Array 'walkthrough'\n_______________");
         
-        for(int i = 0; i < a.length; i++){
+        for(int i = 0; i < 7; i++){
             System.out.println(a[i]);
 	    System.out.println("--------");
         }
